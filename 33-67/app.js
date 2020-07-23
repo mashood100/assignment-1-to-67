@@ -126,3 +126,61 @@
 // var fifty = Math.floor((amount%100)/50)
 // var ten =  Math.floor((((Amount % 100) % 50) / 10))
 // alert(`You will have ${hundered} notes of hundred , ${fifty} notes of fifty and ${ten}`)
+
+
+
+
+// chapter 49  to 52
+
+// Task 1
+
+// var modal = document.getElementById('id01');
+
+// window.onclick = function(event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+// }
+
+// function submit(){
+//      email = document.getElementById('email');
+//      password = document.getElementById('password');
+//      alert(` email: ${email}
+//       password ${password}`)
+// }
+
+//     Task 2
+
+// function showMore() {
+//       var dots = document.getElementById("dots");
+//       var moreText = document.getElementById("more");
+//       var btnText = document.getElementById("myBtn");
+//       if (dots.style.display === "none") {
+//         dots.style.display = "inline";
+//         btnText.innerHTML = "Read more";
+//         moreText.style.display = "none";
+//       } else {
+//         dots.style.display = "none";
+//         btnText.innerHTML = "Read less";
+//         moreText.style.display = "inline";
+//       }
+//     }
+
+
+// task 3 
+
+
+function deleteRow(r) {
+  {
+    var i = r.parentNode.parentNode.rowIndex;
+    document.getElementById("MyTable").deleteRow(i);
+  }
+}
+function editRow(r) {
+  {
+    var i = r.parentNode.parentNode.rowIndex;
+    document.getElementById("MyTable").editRow(i);
+  }
+}
+
+
